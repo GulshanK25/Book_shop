@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HKR bookshop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="h1">
+      <h1>Reading hub 📚 📖</h1>
+    </div>
+    <header>
+      <nav>
+        <span class="dropdown">
+          <label for="category"> Select category:</label>
+          <select id="category" onchange="location = this.value;">
+            <option value="./market.html" >All</option>
+            <option value="./javascript.html">Javascript</option>
+            <option value="./Html.html">HTML</option>
+            <option value="./css.html">Css</option>
+            <option value="./ux.html">Ux</option>
+            <option value="./price.html" selected>By Price</option>
+            <option value="./authors.html"> By authors</option>
+          </select>
+        </span>
+        <br /><br /><br /><br /><br /><br />
+        <br /><br /><br />
+      </nav>
+    </header>
+    <!-- <div class="marquee-container">
+      <h2>Welcome to the reading hub where you find your dreams :)</h2>
+    </div> -->
+
+    <!-- <marquee behavior="" direction="right to left ">
+    <h2> Welcome to the reading hub where you find your dreams :) </h2>
+</marquee> -->
+
+    <section class="book-data" id="javascript">
+      <h2>BY price</h2>
+      <nav class="book">
+        <img src="images/css secrets.png" alt="CSS Secrets" />
+        <h3>CSS Secrets</h3>
+        <p>author Lea Verou unveils the hidden powers of CSS, providing a treasure trove of creative solutions and cutting-edge techniques. Discover innovative ways to design stunning and responsive web pages while gaining insight into the artistry behind effective CSS. Elevate your styling expertise with this essential guide to mastering the secrets of CSS.</p>
+        <p>Price : 100.00 krones</p>
+        <button class="add to cart" disabled>add to cart</button>
+      </nav>
+
+      <nav class="book">
+        <img src="images/html.png" alt="html" />
+        <h3>html</h3>
+        <p>HTML Learn Frontend Web Development" by Darshan Magdum is a comprehensive tutorial for aspiring web developers. This hands-on guide covers HTML fundamentals, providing practical insights to help you kickstart your journey into frontend web development.</p>
+        <p>Price : 150.00 krones</p>
+        <button class="add to cart" disabled>add to cart</button>
+      </nav>
+  
+
+      <nav class="book">
+        <img
+          src="images/javascript and j queery.jpg"
+          alt="JavaScript and jQuery: Interactive Front-End Web Development"
+        />
+        <h3>JavaScript and jQuery: Interactive Front-End Web Development</h3>
+        <p>JavaScript and jQuery: Interactive Front-End Web Development" is an essential resource for aspiring web developers. Jon Duckett's comprehensive guide demystifies JavaScript and jQuery, offering hands-on examples to build interactive and dynamic websites. Elevate your front-end development skills with this accessible and visually rich exploration of key concepts and practical technique</p>
+        <p>Price : 200.00 krones</p>
+        <button class="add to cart" disabled>add to cart</button>
+      </nav>
+
+      <nav class="book">
+        <img
+          src="images/javascript.jpg"
+          alt="Eloquent JavaScript, 3rd Edition: A Modern Introduction to Programming"
+        />
+        <h3>
+          Eloquent JavaScript, 3rd Edition: A Modern Introduction to Programming
+        </h3>
+        <p>Eloquent JavaScript, 3rd Edition" is a captivating guide to programming that seamlessly blends theory and practice. Author Marijn Haverbeke introduces readers to the art of coding with clarity and depth. Dive into JavaScript's intricacies, enhance your problem-solving skills, and master the language with this modern and engaging introduction.</p>
+        <p>Price : 250.00 krones</p>
+        <button class="add to cart" disabled>add to cart</button>
+      </nav>
+
+      <nav class="book">
+        <img src="images/html and css.jpg" alt="html and csss" />
+        <h3>html and csss</h3>
+        <p>HTML & CSS" by Jon Duckett is a visually rich guide that simplifies the complexities of HTML and CSS. Dive into the foundations of web development with clear explanations and beautifully designed layouts, making it an ideal resource for beginners./p>
+        <p>Price : 250.00 krones</p>
+        <button class="add to cart" disabled>add to cart</button>
+      </nav>
+      <nav class="book">
+        <img src="images/ux book 1.jpeg" alt="The Elements of User Experience” by Jesse James Garrett" />
+        <h3>The Elements of User Experience” by Jesse James Garrett</h3>
+        <p>The Elements of User Experience" by Jesse James Garrett is a seminal work that breaks down the complexities of UX design. Garrett's five-plane model provides a comprehensive framework, guiding designers through the intricacies of creating seamless, user-centric digital experiences</p>
+        <p>Price : 250.00 krones</p>
+        <button class="add to cart" disabled>add to cart</button>
+      </nav>
+  
+      <nav class="book">
+        <img src="images/ux book 2.jpeg" alt="100 Things Every Designer Needs to Know About People” by Susan Weinschenk" />
+        <h3>100 Things Every Designer Needs to Know About People” by Susan Weinschenk</h3>
+        <p>100 Things Every Designer Needs to Know About People" by Susan Weinschenk is an invaluable resource. Weinschenk distills psychological principles into practical design insights, offering a treasure trove of actionable advice. Enhance your design proficiency and create more impactful user experiences with this essential guide.</p>
+        <p>Price : 350.00 krones</p>
+        <button class="add to cart" disabled>add to cart</button>
+      </nav>
+  
+
+      <nav class="book">
+        <img src="images/css3.png" alt="CSS3: The Missing Manual" />
+        <h3>CSS3: The Missing Manual</h3>
+        <p>CSS3: The Missing Manual" fills the gaps in your CSS knowledge with clear explanations and hands-on examples. David Sawyer McFarland demystifies CSS3, empowering you to create stylish, modern websites with ease.</p>
+        <p>Price : 350.00 krones</p>
+        <button class="add to cart" disabled>add to cart</button>
+      </nav>
+
+      <nav class="book">
+        <img src="images/html3.jpeg" alt="Responsive web design in html and Css" />
+        <h3>Responsive web design in html and Css</h3>
+        <p>Responsive Web Design in HTML and CSS" is a practical guide by Ben Frain. Explore the principles of responsive design, and learn how to craft websites that adapt seamlessly to various devices, ensuring a superb user experience</p>
+        <p>Price : 400.00 krones</p>
+        <button class="add to cart" disabled>add to cart</button>
+      </nav>
+  
+      
+    </section>
+
+
+    <footer>
+      <p>A project for hkr</p>
+      <img src="images/logo.png" alt="HKR image" />
+      <p>copyrights protected</p>
+    </footer>
+
+</html>

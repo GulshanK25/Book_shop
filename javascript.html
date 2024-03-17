@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HKR bookshop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="h1">
+      <h1>Reading hub 📚 📖</h1>
+    </div>
+    <header>
+      <nav>
+        <span class="dropdown">
+            <label for="category"> Select category:</label>
+            <select id="category" onchange="location = this.value;">
+              <option value="./market.html" >All</option>
+              <option value="./javascript.html" selected>Javascript</option>
+              <option value="./Html.html">HTML</option>
+              <option value="./css.html" >Css</option>
+              <option value="./ux.html">Ux</option>
+              <option value="./price.html">By Price</option>
+              <option value="./authors.html"> By authors</option>
+            </select>
+        </span>
+        <br /><br /><br /><br /><br /><br />
+        <br /><br /><br />
+      </nav>
+    </header>
+    <!-- <div class="marquee-container">
+      <h2>Welcome to the reading hub where you find your dreams :)</h2>
+    </div> -->
+
+    <!-- <marquee behavior="" direction="right to left ">
+    <h2> Welcome to the reading hub where you find your dreams :) </h2>
+</marquee> -->
+
+    <section class="book-data" id="javascript">
+      <h2>Javascript Books</h2>
+      <div class="book">
+        <img
+          src="images/javascript.jpg"
+          alt="Eloquent JavaScript, 3rd Edition: A Modern Introduction to Programming"
+        />
+        <h3>
+          Eloquent JavaScript, 3rd Edition: A Modern Introduction to Programming
+        </h3>
+        <p>Eloquent JavaScript, 3rd Edition" is a captivating guide to programming that seamlessly blends theory and practice. Author Marijn Haverbeke introduces readers to the art of coding with clarity and depth. Dive into JavaScript's intricacies, enhance your problem-solving skills, and master the language with this modern and engaging introduction.</p>
+        <p>Price : 250.00 krones</p>
+        <button class="add to cart" disabled>add to cart</button>
+      </div>
+      <div class="book">
+        <img
+          src="images/javascript and j queery.jpg"
+          alt="JavaScript and jQuery: Interactive Front-End Web Development"
+        />
+        <h3>JavaScript and jQuery: Interactive Front-End Web Development</h3>
+        <p>JavaScript and jQuery: Interactive Front-End Web Development" is an essential resource for aspiring web developers. Jon Duckett's comprehensive guide demystifies JavaScript and jQuery, offering hands-on examples to build interactive and dynamic websites. Elevate your front-end development skills with this accessible and visually rich exploration of key concepts and practical technique</p>
+        <p>Price : 200.00 krones</p>
+        <button class="add to cart" disabled>add to cart</button>
+      </div>
+    </section>
+
+    <!-- <section class="book-data" id="css"></section>
+    <h2>CSS books</h2>
+    <nav class="book">
+      <img src="images/css secrets.png" alt="CSS Secrets" />
+      <h3>CSS Secrets</h3>
+      <p>Description</p>
+      <p>Price : 15.00 krones</p>
+      <button class="add to cart" disabled>add to cart</button>
+    </nav>
+
+    <nav class="book">
+      <img src="images/css3.png" alt="CSS3: The Missing Manual" />
+      <h3>CSS3: The Missing Manual</h3>
+      <p>Description</p>
+      <p>Price : 15.00 krones</p>
+      <button class="add to cart" disabled>add to cart</button>
+    </nav>
+
+    <section class="book-data" id="html"></section>
+    <h2>HTML books</h2>
+    <nav class="book">
+      <img src="images/html and css.jpg" alt="html and csss" />
+      <h3>html and csss</h3>
+      <p>Description</p>
+      <p>Price : 15.00 krones</p>
+      <button class="add to cart" disabled>add to cart</button>
+    </nav>
+
+    <nav class="book">
+      <img src="images/html.png" alt="html" />
+      <h3>html</h3>
+      <p>Description</p>
+      <p>Price : 15.00 krones</p>
+      <button class="add to cart" disabled>add to cart</button>
+    </nav> -->
+
+    <footer>
+      <p>A project for hkr</p>
+      <img src="images/logo.png" alt="HKR image" />
+      <p>copyrights protected</p>
+    </footer>
+
+</html>

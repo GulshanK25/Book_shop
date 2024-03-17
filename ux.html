@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HKR bookshop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="h1">
+      <h1>Reading hub 📚 📖</h1>
+    </div>
+    <header>
+      <nav>
+        <span class="dropdown">
+          <label for="category"> Select category:</label>
+          <select id="category" onchange="location = this.value;">
+            <option value="./market.html" >All</option>
+            <option value="./javascript.html">Javascript</option>
+            <option value="./Html.html">HTML</option>
+            <option value="./css.html">Css</option>
+            <option value="./ux.html" selected>Ux</option>
+            <option value="./price.html">By Price</option>
+            <option value="./authors.html"> By authors</option>
+          </select>
+        </span>
+        <br /><br /><br /><br /><br /><br />
+        <br /><br /><br />
+      </nav>
+    </header>
+    <!-- <div class="marquee-container">
+      <h2>Welcome to the reading hub where you find your dreams :)</h2>
+    </div>
+ -->
+
+    <section class="book-data" id="UX">
+        <h2>UX books</h2>
+        <nav class="book">
+          <img src="images/ux book 1.jpeg" alt="The Elements of User Experience” by Jesse James Garrett" />
+          <h3>The Elements of User Experience” by Jesse James Garrett</h3>
+          <p>The Elements of User Experience" by Jesse James Garrett is a seminal work that breaks down the complexities of UX design. Garrett's five-plane model provides a comprehensive framework, guiding designers through the intricacies of creating seamless, user-centric digital experiences</p>
+          <p>Price : 250.00 krones</p>
+          <button class="add to cart" disabled>add to cart</button>
+        </nav>
+    
+        <nav class="book">
+          <img src="images/ux book 2.jpeg" alt="100 Things Every Designer Needs to Know About People” by Susan Weinschenk" />
+          <h3>100 Things Every Designer Needs to Know About People” by Susan Weinschenk</h3>
+          <p>100 Things Every Designer Needs to Know About People" by Susan Weinschenk is an invaluable resource. Weinschenk distills psychological principles into practical design insights, offering a treasure trove of actionable advice. Enhance your design proficiency and create more impactful user experiences with this essential guide.</p>
+          <p>Price : 350.00 krones</p>
+          <button class="add to cart" disabled>add to cart</button>
+        </nav>
+    </section>
+
+    <footer>
+      <p>A project for hkr</p>
+      <img src="images/logo.png" alt="HKR image" />
+      <p>copyrights protected</p>
+    </footer>
+
+</html>
